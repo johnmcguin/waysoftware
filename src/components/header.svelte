@@ -1,7 +1,6 @@
----
-// should probably be a component to handle mobile nav
-import Logo from "@components/logo.astro";
----
+<script>
+  import Logo from "@components/logo.svelte";
+</script>
 
 <header class="absolute inset-x-0 top-0 z-50">
   <nav
@@ -37,10 +36,10 @@ import Logo from "@components/logo.astro";
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-      <a href="#" class="text-sm font-semibold leading-6 text-white">Services</a
+      <a href="/" class="text-sm font-semibold leading-6 text-white">Services</a
       >
-      <a href="#" class="text-sm font-semibold leading-6 text-white">Values</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-white">About</a>
+      <a href="/" class="text-sm font-semibold leading-6 text-white">Values</a>
+      <a href="/" class="text-sm font-semibold leading-6 text-white">About</a>
       <a
         href="https://blog.waysoftware.dev"
         class="text-sm font-semibold leading-6 text-white">Blog</a
@@ -56,7 +55,7 @@ import Logo from "@components/logo.astro";
       class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10"
     >
       <div class="flex items-center justify-between">
-        <a href="#" class="-m-1.5 p-1.5">
+        <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Way Software</span>
           <img
             class="h-8 w-auto"
@@ -86,17 +85,17 @@ import Logo from "@components/logo.astro";
         <div class="-my-6 divide-y divide-gray-500/25">
           <div class="space-y-2 py-6">
             <a
-              href="#"
+              href="/"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
               >Services</a
             >
             <a
-              href="#"
+              href="/"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
               >Values</a
             >
             <a
-              href="#"
+              href="/"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
               >About</a
             >
