@@ -1,9 +1,8 @@
 <script lang="ts">
   import Logo from "@components/logo.svelte";
-  /**
-   * 1. manage open / closed state of the services menu
-   * 2. manage open / closed state of the mobile menu
-   */
+  import Services from "@components/nav_services.svelte";
+  import { fade } from "svelte/transition";
+
   let isMobileMenuOpen: boolean;
 </script>
 
@@ -45,8 +44,7 @@
       </button>
     </div>
     <div class="hidden md:flex md:gap-x-12">
-      <a href="/" class="text-sm font-semibold leading-6 text-white">Services</a
-      >
+      <Services />
       <a href="/" class="text-sm font-semibold leading-6 text-white">Values</a>
       <a href="/" class="text-sm font-semibold leading-6 text-white">About</a>
       <a
