@@ -19,7 +19,6 @@
       </a>
     </div>
     <div class="flex lg:hidden">
-      <!-- mobile hambuergesa menu -->
       <button
         type="button"
         class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
@@ -57,7 +56,6 @@
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
   </nav>
-  <!-- Mobile menu, show/hide based on menu open state. -->
   {#if isMobileMenuOpen}
     <div class="lg:hidden" role="dialog" aria-modal="true">
       <!-- Background backdrop, show/hide based on slide-over state. -->
@@ -70,7 +68,6 @@
             <span class="sr-only">Way Software</span>
             <Logo />
           </a>
-          <!-- close mobile menu (x icon) -->
           <button
             type="button"
             class="-m-2.5 rounded-md p-2.5 text-gray-400"
