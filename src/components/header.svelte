@@ -9,16 +9,16 @@
 
 <header class="absolute inset-x-0 top-0 z-50">
   <nav
-    class="flex items-center justify-between p-6 lg:px-8"
+    class="flex items-center justify-between p-6 md:px-8"
     aria-label="Global"
   >
-    <div class="flex lg:flex-1">
+    <div class="flex md:flex-1">
       <a href="/" class="-m-1.5 p-1.5">
         <span class="sr-only">Way Software</span>
         <Logo />
       </a>
     </div>
-    <div class="flex lg:hidden">
+    <div class="flex md:hidden">
       <button
         type="button"
         class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
@@ -44,7 +44,7 @@
         </svg>
       </button>
     </div>
-    <div class="hidden lg:flex lg:gap-x-12">
+    <div class="hidden md:flex md:gap-x-12">
       <a href="/" class="text-sm font-semibold leading-6 text-white">Services</a
       >
       <a href="/" class="text-sm font-semibold leading-6 text-white">Values</a>
@@ -54,10 +54,10 @@
         class="text-sm font-semibold leading-6 text-white">Blog</a
       >
     </div>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+    <div class="hidden md:flex md:flex-1 md:justify-end"></div>
   </nav>
   {#if isMobileMenuOpen}
-    <div class="lg:hidden" role="dialog" aria-modal="true">
+    <div class="md:hidden" role="dialog" aria-modal="true">
       <!-- Background backdrop, show/hide based on slide-over state. -->
       <div class="fixed inset-0 z-50"></div>
       <div
