@@ -61,33 +61,27 @@
             class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
           >
             <svg
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth={1.5}
               stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
+              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
               />
             </svg>
           </div>
           <div>
-            <a href="#" class="font-semibold text-gray-900">
-              Analytics
+            <a href="/services/web" class="font-semibold text-gray-900">
+              Website Development
               <span class="absolute inset-0"></span>
             </a>
             <p class="mt-1 text-gray-600">
-              Get a better understanding of your traffic
+              Reduce churn and win more customers with a fast, secure website.
             </p>
           </div>
         </div>
@@ -98,27 +92,28 @@
             class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
           >
             <svg
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
+              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59"
+                d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
               />
             </svg>
           </div>
           <div>
-            <a href="#" class="font-semibold text-gray-900">
-              Engagement
+            <a href="/services/web-app" class="font-semibold text-gray-900">
+              Web Application Development
               <span class="absolute inset-0"></span>
             </a>
-            <p class="mt-1 text-gray-600">Speak directly to your customers</p>
+            <p class="mt-1 text-gray-600">
+              Take your SaaS idea from zero to one.
+            </p>
           </div>
         </div>
         <div
@@ -128,28 +123,27 @@
             class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
           >
             <svg
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
+              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33"
+                d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
               />
             </svg>
           </div>
           <div>
-            <a href="#" class="font-semibold text-gray-900">
-              Security
+            <a href="/services/mobile" class="font-semibold text-gray-900">
+              Mobile Application Development
               <span class="absolute inset-0"></span>
             </a>
             <p class="mt-1 text-gray-600">
-              Your customers&#039; data will be safe and secure
+              Build the mobile app of your dreams.
             </p>
           </div>
         </div>
@@ -176,11 +170,16 @@
             </svg>
           </div>
           <div>
-            <a href="#" class="font-semibold text-gray-900">
+            <a
+              href="/services/integrations"
+              class="font-semibold text-gray-900"
+            >
               Integrations
               <span class="absolute inset-0"></span>
             </a>
-            <p class="mt-1 text-gray-600">Connect with third-party tools</p>
+            <p class="mt-1 text-gray-600">
+              Enable new business with custom integrations.
+            </p>
           </div>
         </div>
         <div
@@ -190,28 +189,28 @@
             class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
           >
             <svg
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
+              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+                d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288"
               />
             </svg>
           </div>
           <div>
-            <a href="#" class="font-semibold text-gray-900">
-              Automations
+            <a href="/services/consulting" class="font-semibold text-gray-900">
+              Consulting
               <span class="absolute inset-0"></span>
             </a>
             <p class="mt-1 text-gray-600">
-              Build strategic funnels that will convert
+              Explore what tech might be right for your project or hire me as a
+              staff augmentation team member.
             </p>
           </div>
         </div>
