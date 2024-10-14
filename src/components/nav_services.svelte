@@ -178,7 +178,7 @@
               <span class="absolute inset-0"></span>
             </a>
             <p class="mt-1 text-gray-600">
-              Enable new business with custom integrations.
+              Extend your business with custom integrations.
             </p>
           </div>
         </div>

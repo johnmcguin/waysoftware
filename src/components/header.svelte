@@ -45,7 +45,6 @@
     </div>
     <div class="hidden md:flex md:gap-x-12">
       <Services />
-      <a href="/" class="text-sm font-semibold leading-6 text-white">Values</a>
       <a href="/about" class="text-sm font-semibold leading-6 text-white"
         >About</a
       >
@@ -100,11 +99,6 @@
                 href="/"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                 >Services</a
-              >
-              <a
-                href="/"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                >Values</a
               >
               <a
                 href="/about"

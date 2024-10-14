@@ -1,7 +1,149 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "@layouts/index.astro";
+import Header from "@components/header.svelte";
+import john from "@images/john.jpg";
 ---
 
 <Layout title="About">
-  <h1>Hello about page</h1>
+  <Header client:load />
+  <div
+    class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8"
+  >
+    <img
+      src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+      alt=""
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+    />
+    <div class="mx-auto max-w-2xl text-center">
+      <h1
+        class="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl"
+      >
+        About
+      </h1>
+    </div>
+  </div>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto mt-28 md:mx-0">
+      <Image
+        src={john}
+        alt="A picture of the owner, John"
+        width="200"
+        class="rounded-full mx-auto"
+      />
+      <p class="mt-4 text-lg leading-8 text-gray-600">
+        After floating around in the non-profit sector for a couple of years in
+        my 20s, I decided to try something new. I had the impactful realization
+        that I wanted to have my life's work be informed by my internal drive
+        towards creativity and craftsmanship. After some discernment, I went to
+        a coding bootcamp in 2015 and have not looked back since. While I am the
+        owner and sole developer, I have a network of technical professionals to
+        reach to, expanding the scope of the services I can offer to clients.
+      </p>
+    </div>
+    <div class="mx-auto max-w-2xl mt-28 md:mx-0">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Mission
+      </h2>
+      <p class="mt-4 text-lg leading-8 text-gray-600">
+        To partner with clients to help solve their most pressing needs. Using
+        an iterative, agile based work flow with quick feedback loops, I seek to
+        solve for the present while keeping the future in mind. Usually, but not
+        always, this involves the use of technology. Beyond any technical tasks,
+        I seek to understand your business and your needs and present the
+        simplest solution to you.
+      </p>
+    </div>
+    <div class="mx-auto max-w-2xl lg:mx-0 mt-28">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Values
+      </h2>
+    </div>
+    <dl
+      class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16"
+    >
+      <div class="relative pl-9">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+          ></path>
+        </svg>
+        <dt>Communication</dt>
+        <dd class="inline">
+          I won't leave you guessing. I communicate early and often, making sure
+          your project is on track.
+        </dd>
+      </div>
+      <div class="relative pl-9">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+          ></path>
+        </svg>
+        <dt>Do it right</dt>
+        <dd class="inline">
+          You won't have to wonder what corners I'm cutting.
+        </dd>
+      </div>
+      <div class="relative pl-9">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+          ></path>
+        </svg>
+        <dt>Honesty</dt>
+        <dd class="inline">
+          It's just easier for everybody if we tell the truth.
+        </dd>
+      </div>
+      <div class="relative pl-9">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+          ></path>
+        </svg>
+        <dt>Always learning</dt>
+        <dd class="inline">
+          I care a lot about this craft and am continually expanding my
+          knowledge and expertise to provide the best solutions available.
+        </dd>
+      </div>
+    </dl>
+  </div>
 </Layout>
