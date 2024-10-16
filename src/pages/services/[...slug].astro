@@ -3,34 +3,7 @@ import Layout from "@layouts/index.astro";
 import Header from "@components/header.svelte";
 import HeroSecondary from "@components/hero_secondary.astro";
 import { getCollection } from "astro:content";
-// export function getStaticPaths() {
-//   const services = [
-//     {
-//       service: "web",
-//       title: "Website Development",
-//     },
-//     {
-//       service: "web-app",
-//       title: "Web Application Development",
-//     },
-//     {
-//       service: "mobile",
-//       title: "Mobile App Development",
-//     },
-//     {
-//       service: "integrations",
-//       title: "Custom software integrations",
-//     },
-//     {
-//       service: "consulting",
-//       title: "Consulting",
-//     },
-//   ];
-//   return services.map(({ service, title }) => {
-//     return { params: { service: service }, props: { title } };
-//   });
-//
-// }
+
 export async function getStaticPaths() {
   const services = await getCollection("services");
   return services.map((service) => ({
@@ -40,7 +13,6 @@ export async function getStaticPaths() {
 }
 
 const { service } = Astro.props;
-console.log({ service });
 const { Content } = await service.render();
 ---
 
@@ -49,10 +21,6 @@ const { Content } = await service.render();
   <HeroSecondary title={service} />
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl mt-28 md:mx-0">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Services - {service}
-      </h2>
-      <p class="mt-4 text-lg leading-8 text-gray-600">Hello</p>
       <Content />
     </div>
   </div>
