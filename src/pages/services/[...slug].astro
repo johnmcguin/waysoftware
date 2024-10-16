@@ -18,7 +18,7 @@ const { Content } = await service.render();
 
 <Layout>
   <Header client:load />
-  <HeroSecondary title={service} />
+  <HeroSecondary title={service.data.title} />
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl mt-28 md:mx-0">
       <Content />
