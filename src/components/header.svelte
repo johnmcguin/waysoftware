@@ -1,7 +1,6 @@
 <script lang="ts">
   import Logo from "@components/logo.svelte";
   import Services from "@components/nav_services.svelte";
-  import { fade } from "svelte/transition";
 
   let isMobileMenuOpen: boolean;
 </script>
