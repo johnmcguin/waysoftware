@@ -154,41 +154,6 @@
             class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
           >
             <svg
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 0 0 2.25-2.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v2.25A2.25 2.25 0 0 0 6 10.5Zm0 9.75h2.25A2.25 2.25 0 0 0 10.5 18v-2.25a2.25 2.25 0 0 0-2.25-2.25H6a2.25 2.25 0 0 0-2.25 2.25V18A2.25 2.25 0 0 0 6 20.25Zm9.75-9.75H18a2.25 2.25 0 0 0 2.25-2.25V6A2.25 2.25 0 0 0 18 3.75h-2.25A2.25 2.25 0 0 0 13.5 6v2.25a2.25 2.25 0 0 0 2.25 2.25Z"
-              />
-            </svg>
-          </div>
-          <div>
-            <a
-              href="/services/integrations"
-              class="font-semibold text-gray-900"
-            >
-              Integrations
-              <span class="absolute inset-0"></span>
-            </a>
-            <p class="mt-1 text-gray-600">
-              Extend your business with custom integrations.
-            </p>
-          </div>
-        </div>
-        <div
-          class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50"
-        >
-          <div
-            class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
-          >
-            <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -204,13 +169,13 @@
             </svg>
           </div>
           <div>
-            <a href="/services/consulting" class="font-semibold text-gray-900">
-              Consulting
+            <a href="/services/custom" class="font-semibold text-gray-900">
+              Custom
               <span class="absolute inset-0"></span>
             </a>
             <p class="mt-1 text-gray-600">
-              Explore what tech might be right for your project or hire me as a
-              staff augmentation team member.
+              Don't see what you're looking for? Reach out anyway and let's see
+              if we can still partner.
             </p>
           </div>
         </div>
