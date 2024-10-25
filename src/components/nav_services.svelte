@@ -66,7 +66,7 @@
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              class="h-6 w-6 text-gray-600 group-hover:text-way_blue"
             >
               <path
                 strokeLinecap="round"
@@ -97,7 +97,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              class="h-6 w-6 text-gray-600 group-hover:text-way_yellow"
             >
               <path
                 stroke-linecap="round"
@@ -128,7 +128,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              class="h-6 w-6 text-gray-600 group-hover:text-way_green"
             >
               <path
                 stroke-linecap="round"
@@ -159,7 +159,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+              class="h-6 w-6 text-gray-600 group-hover:text-way_orange"
             >
               <path
                 stroke-linecap="round"
