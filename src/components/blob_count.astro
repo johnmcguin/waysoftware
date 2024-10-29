@@ -1,0 +1,24 @@
+---
+interface Props {
+  variant: "blue" | "green" | "orange" | "yellow";
+  count: number;
+}
+const { variant, count } = Astro.props;
+const { default: img } = await import(`../images/blob_${variant}.svg?raw`);
+---
+
+<div data-content={count} class="relative blob-with-count text-slate-50">
+  <Fragment set:html={img} />
+</div>
+
+<style>
+  .blob-with-count:before {
+    position: absolute;
+    content: attr(data-content);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-family: monospace;
+  }
+</style>
