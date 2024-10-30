@@ -10,12 +10,7 @@
     class="flex items-center justify-between p-6 md:px-8"
     aria-label="Global"
   >
-    <div class="flex md:flex-1">
-      <!-- <a href="/" class="-m-1.5 p-1.5"> -->
-      <!--   <span class="sr-only">Way Software</span> -->
-      <!--   <Logo /> -->
-      <!-- </a> -->
-    </div>
+    <div class="flex md:flex-1"></div>
     <div class="flex md:hidden">
       <button
         type="button"
@@ -49,6 +44,7 @@
       >
       <a
         href="https://blog.waysoftware.dev"
+        target="_blank"
         class="text-sm font-semibold leading-6 text-white">Blog</a
       >
     </div>

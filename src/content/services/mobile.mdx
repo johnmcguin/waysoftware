@@ -3,6 +3,32 @@ title: "Mobile App Development"
 slug: "mobile"
 ---
 
-<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-  Hello mobile
-</h2>
+import { Image } from "astro:assets";
+import graphic from "@images/graphic.svg";
+import BlobWithNumber from "@components/blob_count.astro";
+import Workflow from "@components/workflow.astro";
+
+{
+
+<>
+  <div class="overflow-hidden mt-28">
+    <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+      <h2 class="text-base font-semibold leading-7 text-way_blue">
+        One codebase
+      </h2>
+      <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+        iOS and Android
+      </p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">
+        Modern day JavaScript tooling enables writing JavaScript that builds to
+        native targets with near native performance. My tool of choice is React
+        Native for this use case. In one codebase, I can build and deploy to
+        both Android and iOS app stores. Where React Native falls short, there
+        is always the fallback to write native modules in Kotlin and Swift to
+        interface with the React Native codebase.
+      </p>
+    </div>
+    <Workflow />
+  </div>
+</>
+}

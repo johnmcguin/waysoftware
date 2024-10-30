@@ -4,6 +4,7 @@ import Layout from "@layouts/index.astro";
 import Header from "@components/header.svelte";
 import HeroSecondary from "@components/hero_secondary.astro";
 import john from "@images/john.jpg";
+import graphic from "@images/graphic.svg";
 ---
 
 <Layout title="About">
@@ -11,43 +12,61 @@ import john from "@images/john.jpg";
   <HeroSecondary title="About" />
   <!-- main content wrapper applied padding -->
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto mt-28 md:mx-0">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 mt-28"
+    >
       <Image
         src={john}
         alt="A picture of the owner, John"
         width="200"
-        class="rounded-full mx-auto"
+        class="mx-auto"
       />
-      <p class="mt-4 text-lg leading-8 text-gray-600">
-        After floating around in the non-profit sector for a couple of years in
-        my 20s, I decided to try something new. I had the impactful realization
-        that I wanted to have my life's work be informed by my internal drive
-        towards creativity and craftsmanship. After some discernment, I went to
-        a coding bootcamp in 2015 and have not looked back since. While I am the
-        owner and sole developer, I have a network of technical professionals to
-        reach to, expanding the scope of the services I can offer to clients.
-      </p>
+      <div class="lg:pr-8">
+        <div class="lg:max-w-lg">
+          <p class="text-lg leading-8 text-gray-600">
+            After spending a couple of years in the non-profit sector, I decided
+            it was time to try something new. I had the impactful realization
+            that I wanted to have my life's work be informed by my internal
+            drive towards creativity and craftsmanship. After considering a
+            bunch of options, I went to a coding bootcamp in 2015 and have not
+            looked back since. While I am the owner and sole developer, I have a
+            network of technical professionals I can reach out to, expanding the
+            scope of the services I can offer to clients.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="mx-auto max-w-2xl mt-28 md:mx-0">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Mission
-      </h2>
-      <p class="mt-4 text-lg leading-8 text-gray-600">
-        To partner with clients to help solve their most pressing needs. Using
-        an iterative, agile based work flow with quick feedback loops, I seek to
-        solve for the present while keeping the future in mind. Usually, but not
-        always, this involves the use of technology. Beyond any technical tasks,
-        I seek to understand your business and your needs and present the
-        simplest solution to you.
-      </p>
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 mt-28"
+    >
+      <div class="lg:pr-8">
+        <div class="lg:max-w-lg">
+          <h3
+            class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+          >
+            Mission
+          </h3>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            To partner with clients to help solve their most pressing needs.
+            Using an iterative, agile based work flow with quick feedback loops,
+            I seek to solve for the present while keeping the future in mind.
+            Usually, but not always, this involves the use of technology. Beyond
+            any technical tasks, I seek to understand your business and your
+            needs and present the simplest solution to you.
+          </p>
+        </div>
+      </div>
+      <Image src={graphic} alt="blended graphic" class="lg:mt-12" />
     </div>
     <div class="mx-auto max-w-2xl lg:mx-0 mt-28">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h3
+        class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+      >
         Values
-      </h2>
+      </h3>
     </div>
     <dl
-      class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16"
+      class="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16"
     >
       <div class="relative pl-9">
         <svg
