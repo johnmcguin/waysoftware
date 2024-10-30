@@ -1,7 +1,7 @@
 ---
 interface Props {
   variant: "blue" | "green" | "orange" | "yellow";
-  count: number;
+  count: string;
 }
 const { variant, count } = Astro.props;
 const { default: img } = await import(`../images/blob_${variant}.svg?raw`);
